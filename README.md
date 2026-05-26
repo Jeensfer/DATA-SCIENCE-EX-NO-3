@@ -64,6 +64,14 @@ df = df.dropna()
 print("Original Dataset")
 print(df.head())
 
+```
+
+<img width="487" height="191" alt="image" src="https://github.com/user-attachments/assets/b1fb0746-b46f-47de-8016-ad5fbf76e026" />
+
+
+```
+
+
 # STEP 3: Feature Encoding (Example categorical column)
 
 df["Category"] = ["Low","Medium","High"]*(len(df)//3)+["Low"]*(len(df)%3)
@@ -125,8 +133,6 @@ print("\nTransformation Completed")
 print("Saved as Transformed_Output.csv")
 print(final_df.head())
 ```
-# OUTPUT:
-<img width="637" height="249" alt="image" src="https://github.com/user-attachments/assets/89c38123-5d87-4ec0-a217-a80ff16024f2" />
 <img width="721" height="526" alt="image" src="https://github.com/user-attachments/assets/14501bed-20b0-4bdb-81ac-f7abc4a01850" />
 
 
